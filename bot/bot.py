@@ -6,10 +6,8 @@ from aiogram.utils import executor
 from os import getenv, path, remove
 from time import sleep
 
-# ГОВНОКОД
-bot = Bot(token=getenv('5407505995:AAE5uHGoJi4js6Ku_Ws7Oh_0uNzSg-FUrYc'))
-# Конец ГОВНОКОД
-# bot = Bot(token=getenv('TOKEN'))
+
+bot = Bot(token=getenv('TOKEN'))
 dp = Dispatcher(bot)
 
 
